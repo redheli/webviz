@@ -49,7 +49,7 @@ const gitInfo = (() => {
 })();
 
 module.exports = {
-  devtool: "cheap-module-eval-source-map",
+  devtool: "eval-source-map",
   entry: {
     docs: "./docs/src/index.js",
     webvizCoreBundle: "./packages/webviz-core/src/index.js",

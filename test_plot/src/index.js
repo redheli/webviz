@@ -39,11 +39,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Example from "./Example";
+import MyProvider from "./MyProvider";
 
 function App() {
   return (
     //{/* set the Worldview container to 100% view height and view width so it covers the whole screen */}
+    // [<div style={{ margin: 30, paddingLeft: 300 }}>
+
+    // </div>,
     <div style={{ width: "100vw", height: "100vh" }}>
+      <MyProvider />
       <Example />
     </div>
   );
