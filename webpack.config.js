@@ -53,6 +53,7 @@ module.exports = {
   entry: {
     docs: "./docs/src/index.js",
     webvizCoreBundle: "./packages/webviz-core/src/index.js",
+    test_plot: "./test_plot/src/index.js",
   },
   output: {
     path: path.resolve(`${__dirname}/docs/public/dist`),
