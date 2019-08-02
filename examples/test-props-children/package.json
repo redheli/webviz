@@ -1,0 +1,21 @@
+{
+  "name": "test-props-children",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "flow-bin": "^0.95.1",
+    "flow-copy-source": "^2.0.2",
+    "flow-typed": "2.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}
