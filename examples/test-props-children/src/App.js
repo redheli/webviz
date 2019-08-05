@@ -78,7 +78,9 @@ class App extends Component<Props,State> {
                   pictureSrc={picture.src}
                   setCurrentPic={this.setCurrentPic}
                   id={picture.id}
-                />
+                >
+                {'button child' + picture.src}
+                </Button>
                 {picture.id}
               </Picture>
             );

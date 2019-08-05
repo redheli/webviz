@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 
 type Props = {
-  children?: string,
+  children: string,
   id: number,
   pictureSrc: any,
   setCurrentPic: any,
@@ -23,6 +23,7 @@ class Button extends Component<Props,State> {
       pictureSrc: null,
     };
     this.buttonLabel = this.buttonLabel.bind(this);
+    console.log('Button childe '+props.children)
   }
 //   buttonLabel = src:string => {
 
